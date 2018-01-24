@@ -1,5 +1,5 @@
 # Tiny-Compiler
-A compiler for Micro LANGUAGE implemented by antlr v4 and Java. The compiler includes lexer, parser, semantic routines, IR code generater, code optimization, and assembly code generator.
+A compiler for Micro LANGUAGE implemented by antlr v4 and Java. The compiler includes lexer, parser, semantic routines, IR code generater, code optimization, and assembly code generator. The compiler supports function calls, loop optimization, and register allocation(4 data registers).
 ## Compile and Build
 $ make all<br />
 build and classes directory will be created.
